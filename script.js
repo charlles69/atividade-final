@@ -6,10 +6,8 @@ form.addEventListener('submit', function(event) {
     
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
-
     
     const newRow = document.createElement('tr');
-
     
     const nameCell = document.createElement('td');
     nameCell.textContent = name;
@@ -18,10 +16,8 @@ form.addEventListener('submit', function(event) {
     const emailCell = document.createElement('td');
     emailCell.textContent = email;
     newRow.appendChild(emailCell);
-
     
     userTableBody.appendChild(newRow);
-
     
     form.reset();
 });
