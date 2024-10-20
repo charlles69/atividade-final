@@ -1,6 +1,6 @@
 
 const form = document.getElementById('form');
-const userTableBody = document.getElementById('userTableBody');
+const userTableBody = document.getElementById('user');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
