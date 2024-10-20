@@ -1,4 +1,3 @@
-
 const form = document.getElementById('form');
 const userTableBody = document.getElementById('user');
 
